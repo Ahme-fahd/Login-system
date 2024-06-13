@@ -1,0 +1,72 @@
+body{
+/* background-image: url(../images/wrood.jpg); */
+background-color:#24353F;
+
+
+}
+
+h1{
+    color:#17A2B8;
+}
+
+
+span{
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    cursor: pointer;
+   
+}
+span:hover{
+text-decoration: underline;
+}
+.btn{ cursor: pointer; transition: 0.5s all; -webkit-transition: 0.5s all; -moz-transition: 0.5s all; -ms-transition: 0.5s all; -o-transition: 0.5s all;
+}
+
+.btn:hover{
+
+    background-color: transparent;
+}
+
+p p{
+    cursor: pointer;
+}  
+
+
+
+.container{
+box-shadow: -5px 2px 54px -9px  rgba(0,0,0,1);
+}
+
+.logout{ border: 3px solid yellow; transition: 0.5s all; -webkit-transition: 0.5s all; -moz-transition: 0.5s all; -ms-transition: 0.5s all; -o-transition: 0.5s all;
+}
+
+a{
+    text-decoration:unset;
+}
+li{
+    list-style: none;
+}
+
+
+
+.logout:hover{
+cursor: pointer;
+
+    background-color: yellow;
+}
+
+.mydiv{
+    width:300px;
+    border:5px solid black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
